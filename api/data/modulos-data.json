@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Mentalidade",
+        "topics": [
+            {
+                "topicName": "Crenças",
+                "content": [
+                    "Grande parte do que nos torna carente de algo, por assim dizer, tem relação com as nossas crenças sobre o assunto. Com riqueza não é diferente: nossas crenças financeiras, ou modelo de dinheiro, dizem respeito de tudo desde a maneira que lidamos com ganhar um salário até com o quanto gastamos sem necessidade",
+                    "Sabe-se que pessoas ricas têm crenças completamente diferentes sobre dinheiro do que pessoas pobres. Quantos de nós já ouvimos que “dinheiro é a raiz de todo mal” ou que “todo rico é bandido”? Essas frases repetidas desde a infância tem um efeito devastador, veja: Se você se considera uma pessoa boa, por qual motivo guardaria dinheiro se ouviu a vida inteira que quem é rico é mau?",
+                    "T. Harv Eker no seu livro “Os Segredos da Mente Milionária” pontua de maneira excelente essas diferenças de crenças entre as pessoas. Recomendamos fortemente a leitura deste volume pois nós, assim como ele, acreditamos que as crenças são o gatilho para qualquer pessoa se encaminhar ao sucesso e à Fortuna!"
+                ],
+                "photos": {},
+                "video": {},
+                "_id": ObjectId()
+            
+            },
+            {
+                "topicName": "Mito da Caverna",
+                "content": [
+                    "Você se lembra do Mito da Caverna de Platão? Talvez você não tenha dado a devida importância para ele quando ouviu sobre ele nas aulas de Filosofia do Ensino Médio (nós também não!), mas essa alegoria explica bem porquê é tão difícil mudar a MENTALIDADE de alguém sem a pessoa ter dado o primeiro passo para mudar as CRENÇAS destrutivas que possui.",
+                    "Relembrando: Platão narra uma caverna escura onde existem personagens que nasceram e cresceram ali. Os seres ficam de costas para a entrada, acorrentados, forçados a olhar apenas para o fundo da caverna, sem poder ver a si próprios nem aos outros. No fundo são projetadas sombras difusas e borradas e sons estranhos provenientes do lado de fora da caverna. Essas condições fazem os prisioneiros acreditar que essas sombras são reais e os sons, suas vozes",
+                    "Imagine agora que um dos prisioneiros se liberte. Ao sair da caverna escura ele se depararia com o Sol pela primeira vez na sua vida; seus olhos seriam feridos pela luz e, depois da dor, ele se depararia com um ambiente completamente distinto com cores e formas que nunca havia sequer imaginado. Maravilhado, ele tentaria voltar e contar aos demais o que viu, mas, com os olhos acostumados ao Sol, não conseguiria enxergar no interior da caverna. Os outros indivíduos, vendo isto, concluiriam que sair da caverna tinha causado graves danos ao companheiro e, por isso, não deveriam nunca sair dali. Se necessário fosse, matariam quem os tentasse obrigar a deixar a caverna.",
+                    "Traçando um paralelo com nosso assunto atual: uma pessoa que consiga perceber a existência de uma outra maneira de tratar as finanças pessoais e a riqueza como um todo será rechaçada imediatamente por aquelas que viveram a vida toda sob uma ilusão e estão despreparadas para observar e interpretar o mundo com outros olhos."
+                ],
+                "photos": [
+                    "images/mentalidade/loop-do-habito.jpg"
+                ],
+                "video": {},
+                "_id": ObjectId()
+            
+            },
+            {
+                "topicName": "Hábitos",
+                "content": [
+                    "Os hábitos são componentes fundamentais da nossa vida. Existem casos documentados de pessoas que mesmo após danos cerebrais profundos conseguem desenvolver hábitos simples que as mantém ligeiramente independentes apesar de tudo.",
+                    "Os hábitos são formados por: Deixas, Rotinas e Recompensas. A Deixa é o acontecimento, situação ou emoção que dispara o hábito, a Rotina são as ações em si que você realiza durante o loop do hábito e a recompensa é o que você ganha ou sente após finalizar o comportamento.",
+                    "Os hábitos destrutivos na vida causam uma estagnação desconfortável e que muitas vezes não conseguimos explicar por serem disparados automaticamente depois de certo tempo. Nas finanças, o resultado mais comum é uma infelicidade que surge com o passar dos anos e um desespero do desconhecido que a aguarda durante a aposentadoria."
+                ],
+                "photos": {},
+                "video": {},
+                "_id": ObjectId()
+            
+            },
+            {
+                "topicName": "Objetivos e Metas",
+                "content": [
+                    "Muitas pessoas após se abrirem para o “novo mundo”, alterarem suas crenças e hábitos são incapazes de atingir o sonho da independência financeira e desistem. Voltam para suas crenças antigas e nunca mais voltam a pensar em investimento. Isso acontece pois as pessoas não estão preparadas a separar objetivos entre de curto, médio e longo prazo. Por isso, não percebem os sucessos do curto prazo que as levariam em algum momento à independência financeira no futuro.",
+                    "É extremamente importante definir suas metas e submetas na escala de tempo correta para poder acompanhar seus sucessos parciais e se encaminhar para a vitória",
+                    "Entre os métodos mais famosos de criação de objetivos e metas estão: SMART e OKR."
+                ],
+                "photos": {},
+                "video": {},
+                "_id": ObjectId()
+            
+            },
+            {
+                "topicName": "Gratidão",
+                "content": [
+                    "Um tópico que se fala pouco na mídia é a gratidão das pessoas ricas. As doações de Bill Gates e outros bilionários resolveram inúmeros problemas de países subdesenvolvidos onde o governo foi incapaz de atuar. Muitas das doações se devem à crença (rica!) de que ao ganhar algo é necessário que você passe algo ao mundo.",
+                    "Por isso, as pessoas que não valorizam suas próprias conquistas e invejam as dos outros são incapazes de suceder verdadeiramente na vida, é necessária gratidão para que o Universo disponibilize oportunidades de crescimento para cada um."
+                ],
+                "photos": {},
+                "video": {},
+                "_id": ObjectId()
+            
+            },
+            {
+                "topicName": "Mentalidade Correta",
+                "content": [
+                    "Para realmente alterar sua mentalidade afinal, indicamos a leitura dos livros mencionados neste capítulo e outros mais:",
+                    "Pai Rico, Pai Pobre;",
+                    "O Poder do Hábito;",
+                    "O Guia Politicamente Incorreto da Economia Brasileira"
+                ],
+                "photos": {},
+                "video": {},
+                "_id": ObjectId()
+            
+            }
+        ]
+    }
+]

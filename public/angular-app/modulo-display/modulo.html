@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="angular-app/modulo-display/custon.css">
+
+<h1>
+    {{vm.modulo.name}}
+</h1> 
+<ul>
+    <li ng-repeat="topic in vm.modulo.topics"><a href="#!/modulos/{{vm.modulo._id}}/{{topic._id}}">{{topic.topicName}}</a></li>
+</ul>

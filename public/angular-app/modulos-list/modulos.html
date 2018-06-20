@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="angular-app/modulos-list/custon.css">
+
+<h1>{{ vm.title }}</h1>
+<ul>
+  <li ng-repeat="modulo in vm.modulos"><a href="#!/modulos/{{modulo._id}}">{{ modulo.name }}</a></li>
+</ul>

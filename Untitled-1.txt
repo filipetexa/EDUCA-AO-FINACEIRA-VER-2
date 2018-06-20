@@ -1,0 +1,27 @@
+data[0].topics.map(function(topico) {
+	if (topico.topicName == "Mito da Caverna")
+		if (topico.photos != undefined)
+			console.log(topico.photos)
+});
+
+for(var i = 0; i < data[0].topics.lenght; i++){
+    var topico = data[0].topics[i];
+    if (topico.topicName == "Mito da Caverna")
+		if (topico.photos != undefined)
+			console.log(topico.photos)
+}
+
+for (var indice in data[0].topics){
+    var topico = data[0].topics[indice];
+    if (topico.topicName == "Mito da Caverna")
+		if (topico.photos != undefined)
+			console.log(topico.photos)
+}
+var topicos = doc.topics
+                for (var i = 0; i < topicos.lenght; i++){
+                    if (topicos[i].topicName == topicName){
+                        res
+                        .status(200)
+                        .json(topicos[i])
+                    }
+                }
