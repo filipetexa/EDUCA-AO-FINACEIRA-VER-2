@@ -1,0 +1,99 @@
+.bar{
+    /* estilo da faixa */
+    background: linear-gradient(180deg,#0b3e71,rgba(11,65,118,.5));
+    background-color: rgba(11,65,118,.8);
+    background-repeat: repeat-x;
+
+    /* posiçao da faixa  */
+    position: fixed;
+    top:0;
+    
+    height: 70px;
+    margin: 0px;
+    width: 100%;
+}
+#log{
+    margin-top: 12px;
+    background-color:#fff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#0b3e71;
+	font-family:Arial;
+	font-size:22px;
+	padding:7px 28px;
+    text-decoration:none;
+    
+    
+}
+#log:hover{
+    background-color:#b9daf5;
+}
+#navbar{
+
+    margin: 0 auto;
+    max-width: 1140px;
+    min-height: 70px;
+    padding: 0 40px
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+    margin:0;
+    position: relative;
+}
+#navbar li {
+    display: inline;
+    list-style: none;
+    margin: 0px 15px;
+    padding: 20px;
+    
+    color: white;
+}
+.contato {
+    margin: 18px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    /* posiçao da logo */
+    background-color: transparent;
+    height: 52px;
+    margin-top: 7px;
+    color: white;
+    float: left;
+    
+    
+    /* estilo do texto  */
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.content{
+    margin:0px;
+}
+
+#login{
+    display: none;
+    background-color: #fff;
+    margin-top: 17px; 
+    position: absolute;
+    max-width: 250px;
+    max-height: 200px;
+}
+#login ul{
+    padding:0px;
+    
+}
+#login li{
+    padding: 0px;
+    margin: 0px;
+    color:black;
+}
