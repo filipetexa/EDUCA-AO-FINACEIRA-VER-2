@@ -1,25 +1,40 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
 <link rel="stylesheet" href="angular-app/navigation-directive/custon.css">
 
 
-<div class="bar">
+<div id="bar" class="bar">
   <div id="navbar">
-    <a id="logo" href="">Educação Finaceira</a>
+    <a id="logo" href="#!/">Educação Financeira</a>
     <ul>
+        <li>
+            <a id="registro" href="#!/register">Registre-se</a>
+          </li>
       <li>
-        <button id="log" onclick="log ()"  >Entrar</button>
-        <div class="btn btn-secondary dropdown-toggle" id="login">
-          <ul>
-            <li>
+        <button id="log" onclick="log ()">Entrar</button>
+        <div id="login">
+          <form ng-submit="vm.login()" role="login">
+
+            <div>
               <label>Nome:</label>
-              <input type="text">
-            </li>
-            <li>
-                <label>Senha:</label>
-              <input type="text">
-            </li>
-            <button>Login</button>
-          </ul>
+            </div>
+
+            <div ng-class="{'has-error': vm.error}">
+              <input type="text" class="form-control input-sm" placeholder="Username" ng-model="vm.username" autocapitalize="none">
+            </div>
+
+
+            <div>
+              <label>Senha:</label>
+            </div>
+
+            <div ng-class="{'has-error': vm.error}">
+              <input type="password" class="form-control input-sm" placeholder="Password" ng-model="vm.password" autocapitalize="none">
+            </div>
+
+            <button type="submit">Login</button>
+
+          </form>
         </div>
       </li>
     </ul>

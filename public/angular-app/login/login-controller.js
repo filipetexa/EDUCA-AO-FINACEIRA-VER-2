@@ -28,28 +28,24 @@ function loginController($http, $location, $window, AuthFactory, jwtHelper) {
                         username: vm.username,
                         password: vm.password
                     }
-
-
-                    $http.post('api/users/login', user)
-                        .then(function (response) {
-                            $location.path('/profile');
-
-                            if (response.data.success) {
-                                $window.sessionStorage.token = response.data.token;
-                                AuthFactory.isLoggedIn = true;
-                                var token = $window.sessionStorage.token;
-                                var decodedToken = jwtHelper.decodeToken(token);
-                                vm.loggedInUser = decodedToken.username;
-                            }
-                            if (!response.data.success) {
-                                window.alert("teste");
-                            }
-
-                        })
-                        .catch(function (err) {
-                            console.log(err);
-                        })
                 }
+
+
+                $http.post('api/users/login', user)
+                    .then(function (response) {
+                        $location.path('/profile');
+
+                        if (response.data.success) {
+                            $window.sessionStorage.token = response.data.token;
+                            AuthFactory.isLoggedIn = true;
+                            var token = $window.sessionStorage.token;
+                            var decodedToken = jwtHelper.decodeToken(token);
+                            vm.loggedInUser = decodedToken.username;
+                        }
+                    })
+                    .catch(function (err) {
+                        console.log(err);
+                    })
             }
         }
     }

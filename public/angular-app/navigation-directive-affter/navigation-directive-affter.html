@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="angular-app/navigation-directive-affter/custon.css">
+
+<div class="bar">
+    <div id="navbar">
+        <a id="logo" href="#!/">Educação Financeira</a>
+        <ul>
+            <li>
+                <a  ng-class="vm.isActiveTab('modulos')" href="#!/modulos">Início</a>
+            </li>
+            <li>
+                <a  ng-class="vm.isActiveTab('profile')" href="#!/profile">Perfil</a>
+            </li>
+        </ul>
+
+        <div>
+            <button id="log-out" ng-click="vm.logout()">Sair</button>
+        </div>
+    </div>
+</div>
+</div>

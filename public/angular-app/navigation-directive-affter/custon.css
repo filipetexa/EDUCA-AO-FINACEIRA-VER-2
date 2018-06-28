@@ -1,0 +1,118 @@
+/* Barra principal Pos login */
+.bar{
+    /* estilo da faixa */
+    background: #1caff6;
+    background-color: rgba(32,166,231,0.8);
+    background-image: linear-gradient(to bottom, #20a8e9, rgba(30,158,220,0.5));
+    background-repeat: repeat-x;
+
+    /* posiçao da faixa  */
+    position: fixed;
+    top:0;
+    
+    height: 70px;
+    margin: 0px;
+    width: 100%;
+}
+
+/* barra de navegação pos login */
+#navbar {
+    
+    margin: 0 auto;
+    max-width: 1140px;
+    min-height: 70px;
+    padding: 0 40px
+}
+
+#navbar ul {
+    float: left;
+    list-style: none;
+    margin:27px  0px;
+    margin-left:20px;
+    padding:0;
+    size:auto;
+    
+}
+#navbar ul li {
+    display: inline;
+    list-style: none;
+    margin: 0px 7px;
+    padding:0;
+    size:auto;
+    text-decoration: none;
+    background: #1caff6;
+    background-color: rgba(32,166,231,0.8);
+    background-image: linear-gradient(to bottom, #20a8e9, rgba(30,158,220,0.5));
+    background-repeat: repeat-x;
+}
+#navbar ul li a {
+
+    background: #1caff6;
+    background-color: rgba(32,166,231,0.8);
+    background-image: linear-gradient(to bottom, #20a8e9, rgba(30,158,220,0.5));
+    background-repeat: repeat-x;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+
+    cursor:pointer;
+    color:#fff;
+    font-family:museo-sans-rounded, sans-serif;
+    font-size:16px;
+    padding:7px 20px;
+    text-decoration:none;
+}
+#navbar ul li a:hover{
+    background-color:#1493d1;
+    background-image: none;
+}
+#navbar ul li a:active{
+    background-color:#1493d1;
+    background-image: none;
+}
+
+/* style logo  */
+#logo {
+    /* posiçao da logo */
+    background-color: transparent;
+    height: 52px;
+    margin-top: 7px;
+    color: white;
+    float: left;
+    
+    
+    /* estilo do texto  */
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.content{
+    margin:0px;
+}
+
+/* style botao de entrar */
+#log-out {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color:#fff;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #1caff6;
+   
+
+    cursor:pointer;
+    color:#1caff6;
+    font-family:Arial;
+    font-size:20px;
+    padding:2px 20px;
+    text-decoration:none;
+    float: right;
+      
+
+
+}
+#log-out:hover{
+    background-color:#b9daf5;
+}

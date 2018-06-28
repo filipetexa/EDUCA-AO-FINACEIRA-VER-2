@@ -9,8 +9,12 @@
 </head>
 
 <body>
-   
-<mh-navigation></mh-navigation>
+    <div ng-controller="loginController as vm" ng-init="vm.init()">
+        <mh-navigation ng-if="!vm.isLoggedIn()"></mh-navigation>
+        <mh-affter ng-if="vm.isLoggedIn()"></mh-affter>
+    </div>
+
+
     <div class="container">
         <div ng-view></div>
     </div>
@@ -22,14 +26,15 @@
     <script src="angular-app/app.js"></script>
     <script src="angular-app/modulos-data-factory/modulos-data-factory.js"></script>
     <script src="angular-app/navigation-directive/navigation-directive.js"></script>
+    <script src="angular-app/navigation-directive-affter/navigation-directive-affter.js"></script>
     <script src="angular-app/modulos-list/modulos-list-controlle.js"></script>
     <script src="angular-app/modulo-display/modulo-display-controller.js"></script>
     <script src="angular-app/topic-display/topic-display-controller.js"></script>
     <script src="angular-app/register/register-controller.js"></script>
+    <script src="angular-app/login/login-controller.js"></script>
     <script src="angular-app/auth/auth-factory.js"></script>
     <script src="angular-app/auth/auth-interceptor.js"></script>
-    <script src="angular-app/login/login-controller.js"></script>
-    
+
 
 </body>
 
