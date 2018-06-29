@@ -1,6 +1,112 @@
-h1{
-    color: green;
+a{
+    color:#fff;
+    text-decoration: none;
+
 }
-body{
-    background-color:#0b3e71;
+a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+/* div superior com as duas imagens  */
+
+
+.div-top{
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+
+/* gradiente com estrelas */
+    background: #0b3e71;
+    background-image: url(//d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg),linear-gradient(180deg,#0b3e71,#0d64b0);
+  
+}
+/*   */
+
+.div-center{
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+
+
+.content h1 {
+    color:#fff;
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 130px;
+    max-width: 560px;
+}
+.botao {
+    margin-top: 12px;
+    background-color:#7eb530;
+    -moz-border-radius:34px;
+    -webkit-border-radius:28px;
+    border-radius:34px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#fff;
+    font-family:Arial;
+    font-size:30px;
+    padding:11px 110px;
+    text-decoration:none;
+}
+.botao:hover{
+    background-color:#94c500;
+}
+
+.image {
+    background-image: url("image/tio-sam.png");
+    background-size: auto;
+    width: 300px;
+    height: 330px;
+}
+/* div de divisão */
+.divisoria{
+    background: linear-gradient(180deg,#0b3e71,rgba(11,65,118,.5));
+    background-color: rgba(11,65,118,.8);
+    background-repeat: repeat-x;
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+/* div de WWE */
+.wwa{
+    align-items: center;
+    display: flex;
+    min-height: 65h;
+    height: 100%;
+    width: 100%;
+
+    background-color: whitesmoke;
+}
+.wwa h2 {
+    margin-bottom: 30px;
+}
+.wwa-text{
+    width:60%;
+    margin: 40px auto;
+    font-size: 13px;
+}
+
+.image2 {
+    background-image: url("image/dolla.png");
+    background-size: auto;
+    width: 250px;
+    height: 355px;
+    transform: rotate(-15deg);
+}
+.image3 {
+    background-image: url("image/dolla.png");
+    background-size: auto;
+    width: 250px;
+    height: 355px;
+    transform: rotate(15deg);
 }

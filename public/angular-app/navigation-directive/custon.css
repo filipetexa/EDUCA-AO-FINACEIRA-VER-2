@@ -76,8 +76,8 @@
     cursor:pointer;
     color:#0b3e71;
     font-family:Arial;
-    font-size:22px;
-    padding:7px 28px;
+    font-size:13px;
+    padding:8px 20px;
     text-decoration:none;
         
 }
@@ -101,7 +101,10 @@
     position: absolute;
     max-width: 220px;
     max-height: 300px;
-    min-height: 200px;
+    min-height: 180px;
+    -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
 
   
 }
@@ -121,7 +124,7 @@
     margin: 3px auto;;
     box-sizing: border-box;
     color:#0b3e71;
-    font-size: 22px;
+    font-size: 14px;
    
 }
 #login form div input {
@@ -144,8 +147,8 @@
 	cursor:pointer;
 	color:#fff;
 	font-family:Arial;
-	font-size:22px;
-	padding:2px 75px;
+	font-size: 14px;
+	padding:2px 70px;
     text-decoration:none;
     display: flex;
     -webkit-align-items: center;
