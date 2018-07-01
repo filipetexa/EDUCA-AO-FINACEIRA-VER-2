@@ -9,8 +9,6 @@
                     "Sabe-se que pessoas ricas têm crenças completamente diferentes sobre dinheiro do que pessoas pobres. Quantos de nós já ouvimos que “dinheiro é a raiz de todo mal” ou que “todo rico é bandido”? Essas frases repetidas desde a infância tem um efeito devastador, veja: Se você se considera uma pessoa boa, por qual motivo guardaria dinheiro se ouviu a vida inteira que quem é rico é mau?",
                     "T. Harv Eker no seu livro “Os Segredos da Mente Milionária” pontua de maneira excelente essas diferenças de crenças entre as pessoas. Recomendamos fortemente a leitura deste volume pois nós, assim como ele, acreditamos que as crenças são o gatilho para qualquer pessoa se encaminhar ao sucesso e à Fortuna!"
                 ],
-                "photos": {},
-                "video": {},
                 "_id": ObjectId()
             
             },
@@ -22,10 +20,6 @@
                     "Imagine agora que um dos prisioneiros se liberte. Ao sair da caverna escura ele se depararia com o Sol pela primeira vez na sua vida; seus olhos seriam feridos pela luz e, depois da dor, ele se depararia com um ambiente completamente distinto com cores e formas que nunca havia sequer imaginado. Maravilhado, ele tentaria voltar e contar aos demais o que viu, mas, com os olhos acostumados ao Sol, não conseguiria enxergar no interior da caverna. Os outros indivíduos, vendo isto, concluiriam que sair da caverna tinha causado graves danos ao companheiro e, por isso, não deveriam nunca sair dali. Se necessário fosse, matariam quem os tentasse obrigar a deixar a caverna.",
                     "Traçando um paralelo com nosso assunto atual: uma pessoa que consiga perceber a existência de uma outra maneira de tratar as finanças pessoais e a riqueza como um todo será rechaçada imediatamente por aquelas que viveram a vida toda sob uma ilusão e estão despreparadas para observar e interpretar o mundo com outros olhos."
                 ],
-                "photos": [
-                    "images/mentalidade/loop-do-habito.jpg"
-                ],
-                "video": {},
                 "_id": ObjectId()
             
             },
@@ -36,8 +30,6 @@
                     "Os hábitos são formados por: Deixas, Rotinas e Recompensas. A Deixa é o acontecimento, situação ou emoção que dispara o hábito, a Rotina são as ações em si que você realiza durante o loop do hábito e a recompensa é o que você ganha ou sente após finalizar o comportamento.",
                     "Os hábitos destrutivos na vida causam uma estagnação desconfortável e que muitas vezes não conseguimos explicar por serem disparados automaticamente depois de certo tempo. Nas finanças, o resultado mais comum é uma infelicidade que surge com o passar dos anos e um desespero do desconhecido que a aguarda durante a aposentadoria."
                 ],
-                "photos": {},
-                "video": {},
                 "_id": ObjectId()
             
             },
@@ -48,8 +40,6 @@
                     "É extremamente importante definir suas metas e submetas na escala de tempo correta para poder acompanhar seus sucessos parciais e se encaminhar para a vitória",
                     "Entre os métodos mais famosos de criação de objetivos e metas estão: SMART e OKR."
                 ],
-                "photos": {},
-                "video": {},
                 "_id": ObjectId()
             
             },
@@ -59,8 +49,6 @@
                     "Um tópico que se fala pouco na mídia é a gratidão das pessoas ricas. As doações de Bill Gates e outros bilionários resolveram inúmeros problemas de países subdesenvolvidos onde o governo foi incapaz de atuar. Muitas das doações se devem à crença (rica!) de que ao ganhar algo é necessário que você passe algo ao mundo.",
                     "Por isso, as pessoas que não valorizam suas próprias conquistas e invejam as dos outros são incapazes de suceder verdadeiramente na vida, é necessária gratidão para que o Universo disponibilize oportunidades de crescimento para cada um."
                 ],
-                "photos": {},
-                "video": {},
                 "_id": ObjectId()
             
             },
@@ -72,10 +60,48 @@
                     "O Poder do Hábito;",
                     "O Guia Politicamente Incorreto da Economia Brasileira"
                 ],
-                "photos": {},
-                "video": {},
                 "_id": ObjectId()
             
+            }
+        ]
+    },
+    {
+        "name":"Poupança e Orçamento",
+        "topics":[
+            {
+                "topicName": "Regra de Ouro",
+                "content": [
+                    "A Regra de Ouro que muito tem se ouvido falar é uma das regras mais básicas existentes na economia domiciliar. Trata-se, em resumo, de não gastar mais do que se gasta.",
+                    "Com o advento do cartão de crédito e as “facilidades” da internet, muitas pessoas deixaram de seguir essa regra por conveniência e acabam atolando-se em dívidas que muitas vezes permanecem constantes pela vida toda."
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName": "Orçamento Consciente",
+                "content": [
+                    "Para nos mantermos fora do grupo de pessoas endividadas que tem sua ascensão econômica prejudicada por causa de seu descontrole precisamos estabelecer um orçamento e nos atermos a ele independente do que aconteça.",
+                    "Robert Kiyosaki, escritor e empresário milionário, defende em seus livros que o motivo dos ricos ficarem mais ricos numa velocidade maior que as outras camadas da sociedade é porquê eles “se pagam” antes de pagar aos outros. É dizer, os ricos pensam em seu futuro (investindo e cumprindo seus orçamentos previamente criados) antes de se preocuparem em pagar aos outros (contas e lazer).",
+                    "Não se preocupe, nos capítulos posteriores te ensinaremos a montar um orçamento para o sucesso financeiro. Mas lembre-se disto: criar um orçamento inteligente e não seguí-lo à risca é como plantar limões esperando colher laranjas."
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName": "Dívidas inteligentes",
+                "content": [
+                    "Eu sei, eu sei… Em alguns capítulos atrás criticamos duramente aqueles contraem dívidas. Porém, acredite ou não, existem dívidas inteligentes!",
+                    "Pense, a grande maioria das microempresas nunca teria saído do papel sem um empréstimo bancário. Aqueles que ficam ricos devido aos seus negócios com certeza tiveram uma dívida inteligente…",
+                    "Além desse exemplo podemos pensar: se você conseguisse obter garantidamente um retorno percentual de seus investimentos superior aos juros bancários e investisse todo o dinheiro de um empréstimo, todas as suas dívidas desse esquema seriam inteligentíssimas! Claro, é impossível que isso aconteça, mas não custa sonhar!"
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName": "Cartão de Crédito",
+                "content": [
+                    "Quando usamos o cartão de crédito, estamos ativamente contraindo uma dívida com a promessa de pagamento no mês seguinte. Caso não paguemos, bom… Vocês deveriam saber que os juros da fatura do cartão chegam a 500%!",
+                    "Mas também podemos utilizar o cartão de crédito de maneira inteligente! Muitas bandeiras de cartão de crédito e até bancos em si tem programas de pontos que podem ser aproveitados para conseguir descontos em produtos, ingressos e até passagens de avião. Tudo isso sem pagar 1 centavo de anuidade!",
+                    "Isso se deve à existência dos bancos digitais que se popularizaram nos últimos anos, sendo o maior nome o Banco Inter. Calma lá, ainda vamos te ensinar a usar as contas digitais!"
+                ],
+                "_id": ObjectId()
             }
         ]
     }

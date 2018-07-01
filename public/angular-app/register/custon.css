@@ -1,6 +1,35 @@
 h1 {
-    color: green;
+    color: #7eb530;
 }
 label {
-    color: green
+    color: #7eb530;
 } 
+.container{
+    margin-top:100px
+}
+#success{
+    margin-top: 70px
+}
+.botao {
+    margin-top: 12px;
+    background-color:#7eb530;
+    -moz-border-radius:34px;
+    -webkit-border-radius:28px;
+    border-radius:34px;
+    border:1px solid #fff;
+    display:inline-block;
+    cursor:pointer;
+    color:#fff;
+    font-family:Arial;
+    font-size:15px;
+    padding:7px 100px;
+    text-decoration:none;
+   
+}
+.botao:hover{
+    background-color:#94c500;
+}
+form button{
+    display:flex;
+    margin-bottom: 70px;
+}

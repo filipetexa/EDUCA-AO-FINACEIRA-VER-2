@@ -101,12 +101,10 @@ a:hover{
     background-size: auto;
     width: 250px;
     height: 355px;
-    transform: rotate(-15deg);
 }
 .image3 {
     background-image: url("image/dolla.png");
     background-size: auto;
     width: 250px;
     height: 355px;
-    transform: rotate(15deg);
 }

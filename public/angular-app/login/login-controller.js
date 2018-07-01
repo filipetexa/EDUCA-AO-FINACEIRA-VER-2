@@ -33,7 +33,7 @@ function loginController($http, $location, $window, AuthFactory, jwtHelper) {
 
                 $http.post('api/users/login', user)
                     .then(function (response) {
-                        $location.path('/profile');
+                        $location.path('/modulos');
 
                         if (response.data.success) {
                             $window.sessionStorage.token = response.data.token;

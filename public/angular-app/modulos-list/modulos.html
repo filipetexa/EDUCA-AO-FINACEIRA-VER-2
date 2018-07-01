@@ -1,6 +1,26 @@
 <link rel="stylesheet" href="angular-app/modulos-list/custon.css">
 
-<h1>{{ vm.title }}</h1>
-<ul>
-  <li ng-repeat="modulo in vm.modulos"><a href="#!/modulos/{{modulo._id}}">{{ modulo.name }}</a></li>
-</ul>
+<body>
+  <div class="div-top">
+    <div class="container">
+      <div class="div-center">
+
+        <div class="titulo">
+          <h1>{{ vm.title }}</h1>
+        </div>
+
+        <div class="content">
+          <div ng-repeat="modulo in vm.modulos" class="modulos">
+            <h3>{{modulo.name}}</h3>
+            <img src="image/{{modulo.name}}" alt="{{modulo.name}}">
+            <button>
+              <a href="#!/modulos/{{modulo._id}}"> Ver </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>

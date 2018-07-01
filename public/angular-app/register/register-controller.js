@@ -10,16 +10,16 @@ function RegisterController($http){
             password: vm.password,
         };
         if (!vm.username || !vm.password) {
-            vm.error = 'Please add a username and a password';
+            vm.error = 'Por favor, digite a senha e o nome de usuário';
         } else {
             if (vm.password !== vm.passwordRepeat) {
-                vm.error = 'Please make sure thhe passwords match'
+                vm.error = 'Desculpa, mas suas senhas nao estao iguais'
             } else {
                 $http
                     .post('/api/users/register', user)
                     .then(function (result) {
                         console.log(result);
-                        vm.message = 'Successful registratition, please login';
+                        vm.message = 'Prontinho, Voce foi registrado com sucesso';
                         vm.error = '';
                     }).catch(function (error) {
                         console.log(error);

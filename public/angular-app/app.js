@@ -33,12 +33,6 @@ function config($httpProvider, $routeProvider) {
                 restricted: false
             }
         })
-        .when('/wwa', {
-            templateUrl: 'angular-app/who-we-are/wwa.html',
-            access: {
-                restricted: false
-            }
-        })
         .when('/register', {
             templateUrl: 'angular-app/register/register.html',
             controller: RegisterController,
