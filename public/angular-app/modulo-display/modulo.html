@@ -1,8 +1,30 @@
 <link rel="stylesheet" href="angular-app/modulo-display/custon.css">
 
-<h1>
-    {{vm.modulo.name}}
-</h1> 
-<ul>
-    <li ng-repeat="topic in vm.modulo.topics"><a href="#!/modulos/{{vm.modulo._id}}/{{topic._id}}">{{topic.topicName}}</a></li>
-</ul>
+<body>
+    <div class="div-top">
+        <div class="container">
+            <div class="div-center">
+
+                <div class="titulo">
+                    <h1> {{vm.modulo.name}} </h1>
+                </div>
+
+                <div class="content">
+                    <ul>
+                        <li ng-repeat="topic in vm.modulo.topics" class="topicos">
+                            <div>
+                                <h3>{{topic.topicName}}</h3>
+                                <img src="image/{{topic.topicName}}" alt="{{topic.topicName}}">
+                                <button>
+                                    <a href="#!/modulos/{{vm.modulo._id}}/{{topic._id}}">Ver</a>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
