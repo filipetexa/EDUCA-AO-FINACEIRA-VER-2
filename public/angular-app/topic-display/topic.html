@@ -1,10 +1,21 @@
-
 <link rel="stylesheet" href="angular-app/topic-display/custon.css">
-<h1>
-    {{vm.topic.topicName}}
-</h1>
-<ul>
-    <li ng-repeat="paragrafos in vm.topic.content">
-        {{paragrafos}}
-    </li>
-</ul>
+
+
+<div class="div-top">
+    <div class="container">
+        <h1>
+            {{vm.topic.topicName}}
+        </h1>
+        <ul>
+            <li ng-repeat="paragrafos in vm.topic.content">
+                {{paragrafos}}
+            </li>
+            <li>
+                <button class="voltar"><a href="#!/modulos/{{vm.modulo}}">Voltar</a></button>
+                <button class="botao"><a href="#!/modulos/{{vm.modulo}}">Concluído !!!</a></button>
+            </li>
+        </ul>
+
+
+    </div>
+</div>

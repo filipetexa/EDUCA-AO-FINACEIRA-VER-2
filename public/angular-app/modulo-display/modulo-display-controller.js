@@ -4,6 +4,7 @@ angular
 
 function ModuloDisplayController($routeParams, modulosDataFactory) {
     var vm = this;
+
     var moduloId = $routeParams.moduloId;
     vm.isSubmitted = false;
     modulosDataFactory
@@ -12,3 +13,4 @@ function ModuloDisplayController($routeParams, modulosDataFactory) {
             vm.modulo = response.data;
         })
 }
+
