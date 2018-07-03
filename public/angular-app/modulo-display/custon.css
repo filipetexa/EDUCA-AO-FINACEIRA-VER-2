@@ -12,7 +12,6 @@ body{
 }
 .container{
     margin-top:150px;
-    max-height:100vh;
     min-height:500px;
     background: #fff;
     border-radius: 10px;
@@ -36,6 +35,7 @@ body{
     flex-wrap: wrap;
     justify-content: start;
     margin: 0 auto;
+    margin-bottom: 15px;
     padding-left: 35px;
 }
 .topicos {
@@ -46,10 +46,13 @@ body{
     border: 1px solid #bdb2bd;
 }
 .topicos img{
-    width:100%;
-    margin: 3px 3px;
+    width:auto;
+    margin: auto auto;
+    margin-top:25px;
     display:block;
-    box-sizing: border-box;
+    max-width: 300px;
+    max-height: 200px;
+    min-height: 200px;
 }
 .topicos h3 {
     margin-top:10px;
@@ -71,6 +74,32 @@ body{
     background-color:#ffd71f;
 }
 .topicos button a{
+    color:#3c3c3c;
+    text-decoration: none;
+}
+
+.voltar {
+    float: right;
+    margin-right: 55px;
+    margin-bottom:25px;
+}
+.voltar button{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color:#ffcb1f;
+    border-radius:20px;
+    border:1px solid #ffcb1f;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:15px;
+    padding:5px 22px;
+    text-decoration:none;
+}
+.voltar button:hover{
+    background-color:#ffd71f;
+}
+.voltar button a{
     color:#3c3c3c;
     text-decoration: none;
 }

@@ -1,3 +1,22 @@
+.div-top{ 
+ 
+    align-items: center;
+    display: flex;
+    min-height: 70vh;
+    height: 100%;
+    width: 100%;
+ 
+}
+.container{
+    margin-top:150px;
+    max-height:100vh;
+    min-height:500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px 0px rgba(189,178,189,0.81);
+    border: 0.5px solid #bdb2bd;
+}
+
 h1 {
     color: green;
 }

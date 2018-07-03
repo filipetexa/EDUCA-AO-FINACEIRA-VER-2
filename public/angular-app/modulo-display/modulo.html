@@ -14,15 +14,19 @@
                         <li ng-repeat="topic in vm.modulo.topics" class="topicos">
                             <div>
                                 <h3>{{topic.topicName}}</h3>
-                                <img src="image/{{topic.topicName}}" alt="{{topic.topicName}}">
+                                <img src="angular-app/images/{{vm.modulo.name}}/{{topic.topicName}}.png" alt="{{topic.topicName}}">
                                 <button>
                                     <a href="#!/modulos/{{vm.modulo._id}}/{{topic._id}}">Ver</a>
                                 </button>
                             </div>
                         </li>
                     </ul>
+
                 </div>
-                
+                <div class="voltar">
+                    <button><a href="#!/modulos"> Voltar </a></button>
+                </div>
+
             </div>
 
         </div>
