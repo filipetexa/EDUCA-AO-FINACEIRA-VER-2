@@ -67,6 +67,14 @@ a:hover{
     width: 300px;
     height: 330px;
 }
+
+.neymar{
+    background-image: url("image/neymito.png");
+    background-size: auto;
+    width: 300px;
+    height: 330px;
+    background-repeat: no-repeat;
+}
 /* div de divisão */
 .divisoria{
     background: linear-gradient(180deg,#0b3e71,rgba(11,65,118,.5));

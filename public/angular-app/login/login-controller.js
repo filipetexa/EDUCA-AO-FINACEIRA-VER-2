@@ -45,6 +45,8 @@ function loginController($http, $location, $window, AuthFactory, jwtHelper) {
                     })
                     .catch(function (err) {
                         console.log(err);
+                        document.getElementById("ney").className = "neymar";
+                        document.getElementById("negado").innerHTML = "O menino NEY indentificou um erro na senha fornecida, por favor insira a senha correta e ajude o Brasil a ganhar o hexa "
                     })
             }
         }

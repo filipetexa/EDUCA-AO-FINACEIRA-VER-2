@@ -10,7 +10,6 @@
                     "T. Harv Eker no seu livro “Os Segredos da Mente Milionária” pontua de maneira excelente essas diferenças de crenças entre as pessoas. Recomendamos fortemente a leitura deste volume pois nós, assim como ele, acreditamos que as crenças são o gatilho para qualquer pessoa se encaminhar ao sucesso e à Fortuna!"
                 ],
                 "_id": ObjectId()
-            
             },
             {
                 "topicName": "Mito da Caverna",
@@ -21,7 +20,6 @@
                     "Traçando um paralelo com nosso assunto atual: uma pessoa que consiga perceber a existência de uma outra maneira de tratar as finanças pessoais e a riqueza como um todo será rechaçada imediatamente por aquelas que viveram a vida toda sob uma ilusão e estão despreparadas para observar e interpretar o mundo com outros olhos."
                 ],
                 "_id": ObjectId()
-            
             },
             {
                 "topicName": "Hábitos",
@@ -31,7 +29,6 @@
                     "Os hábitos destrutivos na vida causam uma estagnação desconfortável e que muitas vezes não conseguimos explicar por serem disparados automaticamente depois de certo tempo. Nas finanças, o resultado mais comum é uma infelicidade que surge com o passar dos anos e um desespero do desconhecido que a aguarda durante a aposentadoria."
                 ],
                 "_id": ObjectId()
-            
             },
             {
                 "topicName": "Objetivos e Metas",
@@ -41,7 +38,6 @@
                     "Entre os métodos mais famosos de criação de objetivos e metas estão: SMART e OKR."
                 ],
                 "_id": ObjectId()
-            
             },
             {
                 "topicName": "Gratidão",
@@ -50,7 +46,6 @@
                     "Por isso, as pessoas que não valorizam suas próprias conquistas e invejam as dos outros são incapazes de suceder verdadeiramente na vida, é necessária gratidão para que o Universo disponibilize oportunidades de crescimento para cada um."
                 ],
                 "_id": ObjectId()
-            
             },
             {
                 "topicName": "Mentalidade Correta",
@@ -61,13 +56,12 @@
                     "O Guia Politicamente Incorreto da Economia Brasileira"
                 ],
                 "_id": ObjectId()
-            
             }
         ]
     },
     {
-        "name":"Poupança e Orçamento",
-        "topics":[
+        "name": "Poupança e Orçamento",
+        "topics": [
             {
                 "topicName": "Regra de Ouro",
                 "content": [
@@ -100,6 +94,47 @@
                     "Quando usamos o cartão de crédito, estamos ativamente contraindo uma dívida com a promessa de pagamento no mês seguinte. Caso não paguemos, bom… Vocês deveriam saber que os juros da fatura do cartão chegam a 500%!",
                     "Mas também podemos utilizar o cartão de crédito de maneira inteligente! Muitas bandeiras de cartão de crédito e até bancos em si tem programas de pontos que podem ser aproveitados para conseguir descontos em produtos, ingressos e até passagens de avião. Tudo isso sem pagar 1 centavo de anuidade!",
                     "Isso se deve à existência dos bancos digitais que se popularizaram nos últimos anos, sendo o maior nome o Banco Inter. Calma lá, ainda vamos te ensinar a usar as contas digitais!"
+                ],
+                "_id": ObjectId()
+            }
+        ]
+    },
+    {
+        "name": "Economia",
+        "topics": [
+            {
+                "topicName": "Bancos e Corretorras",
+                "content": [
+                    "Quem nunca ficou horas na fila de um banco e saiu de lá sem ter o problema resolvido? Se não passou por isso, acredite em nós, siga as dicas desse tópico ou vai passar por isso em breve.",
+                    "No mundo dos investimentos existem bancos e corretoras apropriados para esse assunto. As corretoras fazem a intermediação entre os ofertantes de produtos de investimentos (que veremos daqui a pouco) e os clientes (NÓS!). As corretoras são mais adequadas para acessar tais produtos pois permitem uma visualização completa do que o mercado oferece, diferente dos bancos tradicionais que geralmente são restritos a produtos do próprio banco (muito inferiores aos das corretoras). Criar uma conta na corretora de sua preferência é um passo básico no caminho para a riqueza: É completamente gratuito e demora, no pior caso, poucos dias. Para enviar fundos à corretora é necessária uma TED de uma conta com sua titularidade. Como a grande maioria das contas correntes cobra um preço (normalmente absurdo) para realizar TEDs, recomendamos aqui a criação de uma conta corrente de um banco digital que tenha transferências ilimitadas, caso se enquadre no grupo de pessoas que as pagaria normalmente."
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName":"Mercado Financeiro",
+                "content":[
+                    "A economia global nos dias de hoje funciona através de um mercado financeiro mundial. Mercado financeiro é, por definição, um ambiente de compra e venda de valores mobiliários (ações, opções, títulos), câmbio (moedas estrangeiras) e mercadorias (ouro, produtos agrícolas). Aqueles que ganharam mais dinheiro do que gastaram, emprestam o dinheiro poupado para aqueles que gastaram mais do que ganharam em troca de um prêmio: os juros que abordaremos depois. Essa regra vale para tudo desde países até pessoas físicas"
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName":"TID",
+                "content":[
+                    "Se te disséssemos que precisa apenas de 3 coisas para ficar rico você acreditaria? Pois essa é a mais pura verdade. Batizamos esse conceito de TID: Tempo (T), Juros (I), Dinheiro (D). Quanto mais você tiver de cada um deles, menos precisa dos outros. Se você é jovem e dispõe de muito tempo de vida, não precisa de uma enorme quantia de dinheiro para começar nem um valor de juros extremamente alto. Já se você é um ótimo investidor e consegue as melhores taxas de retorno nos seus investimentos, menos precisará investir e enriquecerá em menos tempo. Num outro caso, se você é um excelente poupador e começará a vida de investimentos já com um montante considerável de dinheiro, uma taxa de juros razoável e um tempo mediano te tornaram rico."
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName": "Liquidez vs Rentabilidade",
+                "content":[
+                 "Todo investimento pode ser classificado em relação ao seu Risco, Liquidez e Rentabilidade. Risco se trata da volatilidade de um ativo: o quanto ele oscila de acordo com o mercado, o exemplo mais fácil de se ver hoje em dia são as criptomoedas como o Bitcoin, um tipo de investimento bastante arriscado no curto prazo. Liquidez se trata da disponibilidade do dinheiro investido: sua poupança (se é que podemos chamá-la de investimento) possui uma liquidez diária, é possível sacar o dinheiro a qualquer momento, já uma LCI (não se assuste, já vamos te explicar esse nome) vai exigir que seu dinheiro fique indisponível para saques por um período X de tempo. Rentabilidade é o conceito mais fácil de todos, se trata sobre qual a porcentagem de lucro é passível de ser obtida com o investimento: um investimento em Tesouro Direto é com absoluta certeza mais rentável que a poupança!"   
+                ],
+                "_id": ObjectId()
+            },
+            {
+                "topicName": "SELIC e IPCA",
+                "content":[
+                    "Os dois principais indicadores da economia doméstica brasileira são o IPCA (Índice de Preços ao Consumidor Amplo) e a SELIC (Sistema Especial de Liquidação e de Custódia). O IPCA é um dos índices utilizados para medir a inflação acumulada de um período qualquer. Já a SELIC é uma taxa de juros referencial, definida pelo COPOM (Comitê de Política Monetária), e é utilizada como forma de controlar o consumo e a inflação em geral."
                 ],
                 "_id": ObjectId()
             }
